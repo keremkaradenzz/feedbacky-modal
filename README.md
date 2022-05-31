@@ -18,6 +18,7 @@ https://www.npmjs.com/package/@keremkaradenzz/feedbacky-modal
 | `stroke`      | string         | 'currentColor'|
 | `strokeWidth` | number         | 1             |
 | `alignment`   | string         |'bottom-right' |
+| `backgroundColor`| string      |'transparent' |
 
 ## NOTE : `alignment` props accept value 'bottom-right' , 'bottom-left' , 'top-left' , 'top-right' 
 
