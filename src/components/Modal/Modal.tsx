@@ -5,9 +5,7 @@ const modalBackgroundStyle: any = () => ({
   width: '100vw',
   height: '100vh',
   position: 'fixed',
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
+  inset: '40%'
 });
 
 const modalContainerStyle: any = () => ({
