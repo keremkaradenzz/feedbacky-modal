@@ -27,7 +27,7 @@ Congrats!
 
 # import { FeedBacky } from '@keremkaradenzz/feedbacky-modal'
 # then use 
-# <FeedBack/>
+ `<FeedBack/>`
 
 ---------------------------------------------------------------------------------------
 
