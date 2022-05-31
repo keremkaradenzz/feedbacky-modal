@@ -22,12 +22,12 @@ Congrats!
 
 
 
-#open console while inside frontend project
+# open console while inside frontend project
 `npm i @keremkaradenzz/feedbacky-modal`
 
-import { FeedBacky } from '@keremkaradenzz/feedbacky-modal'
-then use 
-<FeedBack/>
+# import { FeedBacky } from '@keremkaradenzz/feedbacky-modal'
+# then use 
+# <FeedBack/>
 
 ---------------------------------------------------------------------------------------
 
