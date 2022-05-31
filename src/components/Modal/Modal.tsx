@@ -32,6 +32,7 @@ const bodyStyle: any = () => ({
   alignItems: 'center',
   fontSize: '1.7rem',
   textAlign: 'center',
+  flexDirection:'column'
 });
 
 const textAreaStyle: any = () => ({
