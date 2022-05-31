@@ -24,7 +24,7 @@ https://www.npmjs.com/package/@keremkaradenzz/feedbacky-modal
 
 
 # open console while inside frontend project
-`npm i @keremkaradenzz/feedbacky-modal`
+`npm i @keremkaradenzz/feedbacky-modal axios`
 
 # import { FeedBacky } from '@keremkaradenzz/feedbacky-modal'
 # then use 
