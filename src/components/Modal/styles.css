@@ -1,0 +1,95 @@
+.close-modal-btn{
+    float:right;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer {
+    width: 350px;
+    height: 250px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+  .success-feedback {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .success-feedback > h1{
+    color:rgb(13, 101, 13);
+  }
+  
+  .modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .modalContainer .body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  
+  .modalContainer .footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer .footer button {
+    width: 250px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: rgb(228, 147, 41);
+    color: white;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .body > textarea {
+    width: 95%;
+    min-height: 50px;
+    padding:10px;
+    resize: none;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+  }
+  
+  #cancelBtn {
+    background-color: crimson;
+  }
