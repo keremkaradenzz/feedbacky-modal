@@ -3,7 +3,6 @@
 Congrats! 
 
 ![alt text](https://serving.photos.photobox.com/8600222251c8ce22dafac554b0370538e2e00ae969d6368c090bf85992526dfacf644d18.jpg)
-
  ![alt text](https://i.ibb.co/VmNsJNz/Screen-Shot-2022-05-31-at-16-06-32.png)
 ![alt text](https://i.ibb.co/j3zhBYn/Screen-Shot-2022-05-31-at-16-06-41.png)
 
@@ -21,9 +20,21 @@ Congrats!
 
 ## NOTE : `alignment` props accept value 'bottom-right' , 'bottom-left' , 'top-left' , 'top-right' 
 
-> This TSDX setup is meant for developing React component libraries (not apps!) that can be published to NPM. If you’re looking to build a React-based app, you should use `create-react-app`, `razzle`, `nextjs`, `gatsby`, or `react-static`.
 
-> If you’re new to TypeScript and React, checkout [this handy cheatsheet](https://github.com/sw-yx/react-typescript-cheatsheet/)
+
+#open console while inside frontend project
+`npm i @keremkaradenzz/feedbacky-modal`
+
+import { FeedBacky } from '@keremkaradenzz/feedbacky-modal'
+then use 
+<FeedBack/>
+
+---------------------------------------------------------------------------------------
+
+
+
+# NOTE : 2 
+`if you are going to download and use the project.`
 
 ## Commands
 
