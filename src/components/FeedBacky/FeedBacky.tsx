@@ -11,6 +11,7 @@ interface IProps {
   width?: number;
   height?: number;
   alignment?: string;
+  backgroundColor?: string
 }
 /*
  * @params width  => icon width
@@ -40,6 +41,7 @@ export const FeedBacky: React.FC<IProps> = ({
   stroke,
   strokeWidth,
   alignment = 'bottom-right',
+  backgroundColor,
 }) => {
   // default modal state
   const [openModal, setOpenModal] = useState(false);
@@ -81,7 +83,7 @@ export const FeedBacky: React.FC<IProps> = ({
           />
         </button>
       </div>
-      {openModal && <Modal closeModal={setOpenModal} />}
+      {openModal && <Modal closeModal={setOpenModal}  backgroundColor={backgroundColor}/>}
     </>
   );
 };

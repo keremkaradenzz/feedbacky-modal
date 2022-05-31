@@ -8,11 +8,11 @@ const modalBackgroundStyle: any = () => ({
   inset: '40%'
 });
 
-const modalContainerStyle: any = () => ({
+const modalContainerStyle: any = (backgroundColor:string) => ({
   width: '350px',
   height: '250px',
   borderRadius: '12px',
-  backgroundColor: 'white',
+  backgroundColor,
   boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
   display: 'flex',
   flexDirection: 'column',
@@ -59,6 +59,7 @@ const footerButtonStyle: any = () => ({
 
 interface IProps {
   closeModal: (a: boolean) => void;
+  backgroundColor?: string
 }
 
 interface IData {
@@ -68,7 +69,7 @@ interface IData {
 /*
  * @params closeModal  => modal open function
  */
-export const Modal: React.FC<IProps> = ({ closeModal }) => {
+export const Modal: React.FC<IProps> = ({ closeModal, backgroundColor = 'transparent' }) => {
   const [value, setValue] = useState<string>('');
   const [sendControl, setSendControl] = useState<boolean>(false);
   //sending textarea value  backend
@@ -93,7 +94,7 @@ export const Modal: React.FC<IProps> = ({ closeModal }) => {
 
   return (
     <div style={modalBackgroundStyle()}>
-      <div style={modalContainerStyle()}>
+      <div style={modalContainerStyle(backgroundColor)}>
         <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
           <button
             style={closeButton()}
