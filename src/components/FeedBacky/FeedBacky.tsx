@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { FeedBackIcon } from '../../icons/FeedBackIcon';
 import { Modal } from '../Modal/Modal';
-import './styles.css';
 
 interface IProps {
   className?: string;
@@ -20,6 +19,18 @@ interface IProps {
  * @params alignment => bottom-right or bottom-left or top-left or top-right
  */
 
+//style
+const feedBackStickyStyle: any = () => ({
+  position: 'fixed',
+});
+//style 
+const feedBackStyle: any = () => ({
+  padding: 0,
+  margin: 0,
+  cursor: 'pointer',
+  backgroundColor: 'transparent',
+  border: 'none',
+});
 export const FeedBacky: React.FC<IProps> = ({
   width = 32,
   height = 32,
@@ -53,10 +64,10 @@ export const FeedBacky: React.FC<IProps> = ({
   }, [alignment]);
   return (
     <>
-      <div ref={ref} className="feedback-sticky">
+      <div ref={ref} className="feedback-sticky" style={feedBackStickyStyle()}>
         <button
           data-test="feedBackComponent"
-          className="feedback"
+          style={feedBackStyle()}
           onClick={() => setOpenModal(true)}
         >
           <FeedBackIcon
