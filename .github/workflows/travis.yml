@@ -1,0 +1,6 @@
+language: ruby
+rvm:
+ - 2.2
+ - jruby
+service_name: travis-pro
+repo_token: mHwVJ5YCCMN0LHlDsRrxupf9eS9visOo1
