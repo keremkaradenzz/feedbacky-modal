@@ -1,5 +1,7 @@
 # React w/ Storybook User Guide
 
+[![CI](https://github.com/keremkaradenzz/feedbacky-modal/actions/workflows/main.yml/badge.svg)](https://github.com/keremkaradenzz/feedbacky-modal/actions/workflows/main.yml)
+
 Congrats! 
 https://www.npmjs.com/package/@keremkaradenzz/feedbacky-modal
 
