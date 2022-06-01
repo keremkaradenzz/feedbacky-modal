@@ -5,10 +5,10 @@ const modalBackgroundStyle: any = () => ({
   width: '100vw',
   height: '100vh',
   position: 'fixed',
-  inset: '40%'
+  inset: '40%',
 });
 
-const modalContainerStyle: any = (backgroundColor:string) => ({
+const modalContainerStyle: any = (backgroundColor: string) => ({
   width: '350px',
   height: '250px',
   borderRadius: '12px',
@@ -32,7 +32,7 @@ const bodyStyle: any = () => ({
   alignItems: 'center',
   fontSize: '1.7rem',
   textAlign: 'center',
-  flexDirection:'column'
+  flexDirection: 'column',
 });
 
 const textAreaStyle: any = () => ({
@@ -59,7 +59,7 @@ const footerButtonStyle: any = () => ({
 
 interface IProps {
   closeModal: (a: boolean) => void;
-  backgroundColor?: string
+  backgroundColor?: string;
 }
 
 interface IData {
@@ -69,7 +69,10 @@ interface IData {
 /*
  * @params closeModal  => modal open function
  */
-export const Modal: React.FC<IProps> = ({ closeModal, backgroundColor = 'transparent' }) => {
+export const Modal: React.FC<IProps> = ({
+  closeModal,
+  backgroundColor = 'transparent',
+}) => {
   const [value, setValue] = useState<string>('');
   const [sendControl, setSendControl] = useState<boolean>(false);
   //sending textarea value  backend
@@ -115,7 +118,7 @@ export const Modal: React.FC<IProps> = ({ closeModal, backgroundColor = 'transpa
                 textAlign: 'center',
                 fontSize: '12px',
                 textTransform: 'uppercase',
-                marginTop:2
+                marginTop: 2,
               }}
             >
               <h1>Send Your FeedBack</h1>
@@ -125,7 +128,7 @@ export const Modal: React.FC<IProps> = ({ closeModal, backgroundColor = 'transpa
                 style={textAreaStyle()}
                 aria-label="textarea-input"
                 value={value}
-                onChange={e => setValue(e.target.value)}
+                onChange={(e) => setValue(e.target.value)}
               />
               {value?.length >= 2000 ? (
                 <small data-testid="error-text">

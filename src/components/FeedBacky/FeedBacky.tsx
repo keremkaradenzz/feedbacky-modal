@@ -11,7 +11,7 @@ interface IProps {
   width?: number;
   height?: number;
   alignment?: string;
-  backgroundColor?: string
+  backgroundColor?: string;
 }
 /*
  * @params width  => icon width
@@ -24,7 +24,7 @@ interface IProps {
 const feedBackStickyStyle: any = () => ({
   position: 'fixed',
 });
-//style 
+
 const feedBackStyle: any = () => ({
   padding: 0,
   margin: 0,
@@ -32,6 +32,7 @@ const feedBackStyle: any = () => ({
   backgroundColor: 'transparent',
   border: 'none',
 });
+
 export const FeedBacky: React.FC<IProps> = ({
   width = 32,
   height = 32,
@@ -83,7 +84,9 @@ export const FeedBacky: React.FC<IProps> = ({
           />
         </button>
       </div>
-      {openModal && <Modal closeModal={setOpenModal}  backgroundColor={backgroundColor}/>}
+      {openModal && (
+        <Modal closeModal={setOpenModal} backgroundColor={backgroundColor} />
+      )}
     </>
   );
 };

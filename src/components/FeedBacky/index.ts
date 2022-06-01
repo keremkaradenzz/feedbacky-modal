@@ -1,1 +1,1 @@
-export  * from './FeedBacky';
+export * from './FeedBacky';

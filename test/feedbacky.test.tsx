@@ -27,10 +27,6 @@ describe('FeedBacky', () => {
 });
 
 describe('FeedBacky and Opening Modal', () => {
-  const url = 'http://test-url.com';
-  const onComplete = jest.fn();
-  const data = {};
-
   it('it should render feedbacky component and Open Modal', async () => {
     render(<FeedBacky />);
     const buttonElement = screen.getByRole('button');
