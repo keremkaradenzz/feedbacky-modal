@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1654103825015" clover="3.2.0">
+  <project timestamp="1654103825016" name="All files">
+    <metrics statements="46" coveredstatements="36" conditionals="28" coveredconditionals="17" methods="17" coveredmethods="17" elements="91" coveredelements="70" complexity="0" loc="46" ncloc="46" packages="5" files="7" classes="7"/>
+    <package name="src">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.tsx" path="/Users/oredata/trendyol/feedbacky-modal/src/index.tsx">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.FeedBacky">
+      <metrics statements="21" coveredstatements="12" conditionals="15" coveredconditionals="7" methods="5" coveredmethods="5"/>
+      <file name="FeedBacky.tsx" path="/Users/oredata/trendyol/feedbacky-modal/src/components/FeedBacky/FeedBacky.tsx">
+        <metrics statements="21" coveredstatements="12" conditionals="15" coveredconditionals="7" methods="5" coveredmethods="5"/>
+        <line num="24" count="14" type="stmt"/>
+        <line num="28" count="14" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="47" count="14" type="stmt"/>
+        <line num="48" count="14" type="stmt"/>
+        <line num="50" count="14" type="stmt"/>
+        <line num="51" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="52" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="53" count="7" type="stmt"/>
+        <line num="54" count="7" type="stmt"/>
+        <line num="55" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="58" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="67" count="14" type="stmt"/>
+        <line num="73" count="6" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/oredata/trendyol/feedbacky-modal/src/components/FeedBacky/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.components.Modal">
+      <metrics statements="19" coveredstatements="18" conditionals="7" coveredconditionals="6" methods="10" coveredmethods="10"/>
+      <file name="Modal.tsx" path="/Users/oredata/trendyol/feedbacky-modal/src/components/Modal/Modal.tsx">
+        <metrics statements="19" coveredstatements="18" conditionals="7" coveredconditionals="6" methods="10" coveredmethods="10"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="11" count="10" type="stmt"/>
+        <line num="22" count="10" type="stmt"/>
+        <line num="29" count="9" type="stmt"/>
+        <line num="38" count="9" type="stmt"/>
+        <line num="49" count="9" type="stmt"/>
+        <line num="72" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="73" count="10" type="stmt"/>
+        <line num="74" count="10" type="stmt"/>
+        <line num="76" count="10" type="stmt"/>
+        <line num="77" count="1" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="83" count="1" type="stmt"/>
+        <line num="87" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="88" count="1" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="95" count="10" type="stmt"/>
+        <line num="103" count="1" type="stmt"/>
+        <line num="128" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.icons.FeedBackIcon">
+      <metrics statements="2" coveredstatements="2" conditionals="6" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="FeedBackIcon.tsx" path="/Users/oredata/trendyol/feedbacky-modal/src/icons/FeedBackIcon/FeedBackIcon.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="6" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="22" count="14" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/oredata/trendyol/feedbacky-modal/src/icons/FeedBackIcon/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="stories">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="FeedBacky.stories.tsx" path="/Users/oredata/trendyol/feedbacky-modal/stories/FeedBacky.stories.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="42" count="8" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
