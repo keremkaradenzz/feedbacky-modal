@@ -2,8 +2,6 @@
 
 [![CI](https://github.com/keremkaradenzz/feedbacky-modal/actions/workflows/main.yml/badge.svg)](https://github.com/keremkaradenzz/feedbacky-modal/actions/workflows/main.yml)
 
-[![Coverage Status](https://coveralls.io/repos/github/keremkaradenzz/feedbacky-modal/badge.svg?branch=main)](https://coveralls.io/github/keremkaradenzz/feedbacky-modal?branch=main)
-
 Congrats! 
 https://www.npmjs.com/package/@keremkaradenzz/feedbacky-modal
 
