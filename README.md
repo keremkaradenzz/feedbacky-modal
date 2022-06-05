@@ -1,6 +1,8 @@
-# React w/ Storybook User Guide
+# React w/ Storybook User Guide FeedBacky 
 
 [![CI](https://github.com/keremkaradenzz/feedbacky-modal/actions/workflows/main.yml/badge.svg)](https://github.com/keremkaradenzz/feedbacky-modal/actions/workflows/main.yml)
+`live demo`
+https://feedbacky-frontend.herokuapp.com/
 
 Congrats! 
 https://www.npmjs.com/package/@keremkaradenzz/feedbacky-modal
